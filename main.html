@@ -5,88 +5,95 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Supremo Soluções Ambientais e Serviços</title>
-    <link rel="stylesheet" href="./styles/reset.css" />
     <link rel="stylesheet" href="./styles/global.css" />
     <link rel="stylesheet" href="./styles/main.css" />
     <link rel="icon" href="./favicon.ico" type="image/x-icon" />
   </head>
   <body>
-    <nav class="menu-navbar">
+    <nav class="menu-navbar" id="navegacao">
       <ul>
         <li>
-          <img
-            src="assets/images/Logo-Transparente.png"
-            alt="Logo"
-            width="170"
-            height="50"
-          />
+          <a href="#" id="home-logo">
+            <img
+              src="assets/images/Logo-Transparente.png"
+              alt="Logo"
+              width="170"
+              height="50"
+            />
+          </a>
         </li>
-        <li><a class="active" href="#home">Clientes</a></li>
-        <li><a class="active" href="#home">Serviços</a></li>
-        <li><a href="#news">Equipe</a></li>
-        <li><a href="/contacts.html">Contato</a></li>
-        <li><a href="/main.html">Home</a></li>
+        <li>
+          <a href="/clientes.html" accesskey="5">Clientes</a>
+        </li>
+        <li>
+          <a href="/servicos.html" accesskey="4">Serviços</a>
+        </li>
+        <li><a href="/equipe.html" accesskey="3">Equipe</a></li>
+        <li><a href="/contacts.html" accesskey="2">Contato</a></li>
+        <li><a href="/main.html" accesskey="1">Home</a></li>
       </ul>
     </nav>
-    <main>
-      <section class="home-image">
-        <img src="/assets/images/home-image-2.png" />
+    <header class="home-image" id="cabecalho">
+      <img src="/assets/images/home-image-2.png" alt="home image" />
+    </header>
+    <div class="text-section" id="conteudo" role="main">
+      <h1 class="title">Supremo</h1>
+      <h2 class="subtitle">Soluçõs em engenharia</h2>
+      <section
+        class="description"
+        role="section"
+        aria-label="Formulário de busca"
+      >
+        <div>
+          <h2>História da Empresa</h2>
+          <p>
+            A Supremo é uma empresa no ramo de Engenharia Civil que atua no
+            mercado com elaboração de projetos, gerenciamento de obras e
+            topografia em geral, sendo especialista em loteamentos. Com atuação
+            dos sócios desde 2008 neste ramo a empresa conta com mais de 5000
+            lotes aprovados e 2000 em fase de aprovação.
+          </p>
+        </div>
+        <img src="/assets/images/lote.png" alt="loteamento" />
       </section>
-      <section class="text-section">
-        <div class="description">
-          <div>
-            <h1>História da Empresa</h1>
-            <p>
-              A Supremo é uma empresa no ramo de Engenharia Civil que atua no
-              mercado com elaboração de projetos, gerenciamento de obras e
-              topografia em geral, sendo especialista em loteamentos. Com
-              atuação dos sócios desde 2008 neste ramo a empresa conta com mais
-              de 5000 lotes aprovados e 2000 em fase de aprovação.
-            </p>
-          </div>
-          <img src="/assets/images/lote.png" alt="loteamento" />
+      <section class="values-section" id="values-section">
+        <div class="values-text">
+          <h3>Missão</h3>
+          <p>
+            A nossa missão é ser um time focado e determinado de modo a atender
+            as necessidades dos nossos clientes no ramo da
+            <b>Engenharia</b>, <b>Topografia</b> e desenvolvimento urbano das
+            cidades.
+          </p>
         </div>
-        <div class="values-section">
-          <div class="values-text">
-            <h3>Missão</h3>
-            <p>
-              A nossa missão é ser um time focado e determinado de modo a
-              atender as necessidades dos nossos clientes no ramo da
-              <b>Engenharia</b>, <b>Topografia</b> e desenvolvimento urbano das
-              cidades.
-            </p>
-          </div>
-          <div class="values-text">
-            <h3>Visão</h3>
-            <p>
-              A nossa visão é ser referência no setor de topografia e
-              desenvolvimento urbano, através da ampliação da urbanização de
-              naneira regular, sustentável e responsável.
-            </p>
-          </div>
-          <div class="values-text">
-            <h3>Valores</h3>
-            <p>
-              Os nossa valores são a honestidade e transparência com os
-              clientes, principalmente quando alguma inviabilidade do
-              empreendimento e como podemos seguir com base na legislação
-              ambiental.
-            </p>
-          </div>
+        <div class="values-text">
+          <h3>Visão</h3>
+          <p>
+            A nossa visão é ser referência no setor de topografia e
+            desenvolvimento urbano, através da ampliação da urbanização de
+            naneira regular, sustentável e responsável.
+          </p>
         </div>
-        <div class="organization-section">
-          <h1>Estrutura Organizacional</h1>
-          <div class="organization-content">
-            <h3>Comercial</h3>
-            <h3>Projetos</h3>
-            <h3>Topografia</h3>
-          </div>
+        <div class="values-text">
+          <h3>Valores</h3>
+          <p>
+            Os nossa valores são a honestidade e transparência com os clientes,
+            principalmente quando alguma inviabilidade do empreendimento e como
+            podemos seguir com base na legislação ambiental.
+          </p>
         </div>
       </section>
-    </main>
-    <footer>
+      <section class="organization-section" id="organization-section">
+        <h2>Estrutura Organizacional</h2>
+        <div class="organization-content">
+          <h3>Comercial</h3>
+          <h3>Projetos</h3>
+          <h3>Topografia</h3>
+        </div>
+      </section>
+    </div>
+    <footer id="rodape">
       <p>Feito por Beatriz Gonçalves Silva</p>
     </footer>
-    <script src="index.js"></script>
   </body>
 </html>

@@ -1,4 +1,9 @@
+@import "./variables.css";
+
 * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
 }
@@ -28,6 +33,10 @@ h6 {
         float: left;
     }
 
+    li:first-child a {
+        padding: 0;
+    }
+
     li {
         float: right;
     }
@@ -49,4 +58,27 @@ h1 {
     color: var(--green);
     font-size: 46px;
     margin: 16px 0;
+}
+
+h2 {
+    color: var(--green);
+    font-size: 36px;
+    margin: 16px 0;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-top: 48px;
+    text-align: center;
+    padding: 16px 8px;
+    background-color: #333333;
+    color: white;
+}
+
+.text-section {
+    margin: 0 auto;
+    width: 1120px;
 }
