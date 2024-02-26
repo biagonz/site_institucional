@@ -3,13 +3,50 @@
     font-size: 16px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: "Tinos", serif;
     font-weight: 700;
     font-style: italic;
 }
 
-main {
-    margin: 0 auto;
-    width: 1120px;
+.menu-navbar {
+    margin: 0;
+    padding: 8px 40px;
+    background-color: #333;
+
+    ul {
+        list-style-type: none;
+        overflow: hidden;
+    }
+
+    li:first-child {
+        float: left;
+    }
+
+    li {
+        float: right;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        background-color: #111;
+    }
+}
+
+h1 {
+    color: var(--green);
+    font-size: 46px;
+    margin: 16px 0;
 }
