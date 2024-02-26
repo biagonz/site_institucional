@@ -10,28 +10,34 @@
     <link rel="icon" href="./favicon.ico" type="image/x-icon" />
   </head>
   <body>
-    <nav class="menu-navbar">
+    <nav class="menu-navbar" id="navegacao" role="navigation">
       <ul>
         <li>
-          <img
-            src="assets/images/Logo-Transparente.png"
-            alt="Logo"
-            width="170"
-            height="50"
-          />
+          <a href="#" id="home-logo">
+            <img
+              src="assets/images/Logo-Transparente.png"
+              alt="Logo"
+              width="170"
+              height="50"
+            />
+          </a>
         </li>
-        <li><a class="active" href="#home">Clientes</a></li>
-        <li><a class="active" href="#home">Serviços</a></li>
-        <li><a href="/equipe.html">Equipe</a></li>
-        <li><a href="/contact.html">Contato</a></li>
-        <li><a href="/main.html">Home</a></li>
+        <li>
+          <a href="/clientes.html" accesskey="5">Clientes</a>
+        </li>
+        <li>
+          <a href="/servicos.html" accesskey="4">Serviços</a>
+        </li>
+        <li><a href="/equipe.html" accesskey="3">Equipe</a></li>
+        <li><a href="/contacts.html" accesskey="2">Contato</a></li>
+        <li><a href="/main.html" accesskey="1">Home</a></li>
       </ul>
     </nav>
-    <main class="text-section contacts">
+    <div class="text-section contacts">
       <h1>Contatos</h1>
       <section class="content">
         <div class="contact-info">
-          <h3>SUPREMO SOLUÇÕES EM ENGENHARIA LTDA</h3>
+          <h2>SUPREMO SOLUÇÕES EM ENGENHARIA LTDA</h2>
           <ul>
             <li>
               <b>Endereço:</b> Rua Sete de Setembro, 1548, Vila do Estadio –
@@ -52,13 +58,12 @@
           </ul>
         </div>
         <div class="contact-info">
-          <img src="/assets/images/Localização.png" />
+          <img src="/assets/images/Localização.png" alt="Localização" />
         </div>
       </section>
-    </main>
+    </div>
     <footer>
       <p>Feito por Beatriz Gonçalves Silva</p>
     </footer>
-    <script src="index.js"></script>
   </body>
 </html>

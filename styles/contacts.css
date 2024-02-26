@@ -12,9 +12,10 @@
     background-color: rgba(1, 149, 37, 0.2);
     width: 100%;
 
-    h3 {
+    h2 {
         font-size: 24px;
         padding-bottom: 16px;
+        color: black;
     }
 
     img {
